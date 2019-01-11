@@ -23,5 +23,3 @@ end
     result = remove_strawberry(contacts)
     expect(result["Freddy Mercury"][:favorite_ice_cream_flavors]).to_not include("strawberry")
   end
-end
-end
